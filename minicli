@@ -14,10 +14,11 @@ $app = new App([
     'app_path' => [
         __DIR__ . '/Command'
     ],
+    'stencilDir' => __DIR__ . '/stencils',
     'debug' => true
 ]);
 
-$app->setSignature('./minicli demo param1=value1 param2=value2');
+$app->setSignature('./minicli stencil template=mytemplate output=output.tpl var1=value1 var2=value2 (...)');
 
 try {
     $app->runCommand($argv);

@@ -1,16 +1,17 @@
 {
-    "name": "minicli/command-demo",
+    "name": "minicli/command-stencil",
     "type": "library",
-    "description": "A demo shareable command for Minicli",
+    "description": "A Minicli command to generate files based on minicli/stencil templates",
     "license": "MIT",
-    "homepage": "https://github.com/minicli/command-demo",
-    "keywords": ["cli","command-line", "template"],
+    "homepage": "https://github.com/minicli/command-stencil",
+    "keywords": ["cli","command-line", "template", "minicli"],
     "autoload": {
         "psr-4": {
-            "Vendor\\": "Command/"
+            "Minicli\\": "Command/"
         }
     },
     "require": {
-        "minicli/minicli": "^3.0"
+        "minicli/minicli": "^3.1",
+        "minicli/stencil": "^0.1.0"
     }
 }

@@ -1,0 +1,61 @@
+{
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": ".",
+ "spdxVersion": "SPDX-2.2",
+ "creationInfo": {
+  "created": "2022-06-20T16:01:02.294021107Z",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-0.46.2"
+  ],
+  "licenseListVersion": "3.17"
+ },
+ "dataLicense": "CC0-1.0",
+ "documentNamespace": "https://anchore.com/syft/dir/9dbcde9a-05ad-47ad-a89c-af9374b54b9a",
+ "packages": [
+  {
+   "SPDXID": "SPDXRef-f2d656f23ec08b66",
+   "name": "minicli/minicli",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:minicli\\/minicli:minicli\\/minicli:3.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:composer/minicli/minicli@3.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from PHP composer manifest: composer.lock",
+   "versionInfo": "3.1"
+  },
+  {
+   "SPDXID": "SPDXRef-f418c83de7e8f860",
+   "name": "minicli/stencil",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:minicli\\/stencil:minicli\\/stencil:0.1.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:composer/minicli/stencil@0.1.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from PHP composer manifest: composer.lock",
+   "versionInfo": "0.1.0"
+  }
+ ]
+}
