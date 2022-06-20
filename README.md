@@ -24,12 +24,33 @@ $app = new App([
 ]);
 ```
 
-You should now be able to run the `./minicli stencil` command. You can copy the example template from `vendor/minicli/command-stencil/stencils/example.tpl` to test it out:
+You should now be able to run the `./minicli stencil` command. 
+
+### Testing templates
+
+You can copy the example template from `vendor/minicli/command-stencil/stencils/example.tpl` to test it out:
 
 ```shell
 cp ./vendor/minicli/command-stencil/stencils/example.tpl ./stencils
+```
+
+Then, run `./minicli stencil` with the template set to `example`, providing the expected variable `name`:
+```shell
 ./minicli stencil template=example name=YourName
 ```
 ```shell
 Hello YourName!% 
 ```
+
+### Output content to a file
+
+Include an `output=full-path-to-file` to save the parsed content to a file:
+
+```shell
+./minicli stencil template=example name=YourName output=test.txt
+```
+```shell
+Hello YourName!% 
+```
+
+You should see a file named `test.txt` with the same output of the command. To suppress the command output, set `debug` to `false` in the app's configuration.
