@@ -29,7 +29,7 @@ class DefaultController extends CommandController
         }
 
         if ($this->getApp()->config->debug) {
-            $this->getPrinter()->info($parsedContent);
+            echo($parsedContent);
         }
     }
 }
