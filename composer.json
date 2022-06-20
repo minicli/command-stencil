@@ -1,0 +1,16 @@
+{
+    "name": "minicli/command-demo",
+    "type": "library",
+    "description": "A demo shareable command for Minicli",
+    "license": "MIT",
+    "homepage": "https://github.com/minicli/command-demo",
+    "keywords": ["cli","command-line", "template"],
+    "autoload": {
+        "psr-4": {
+            "Vendor\\": "Command/"
+        }
+    },
+    "require": {
+        "minicli/minicli": "^3.0"
+    }
+}
