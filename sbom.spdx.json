@@ -3,7 +3,7 @@
  "name": ".",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-06-20T17:51:35.577060562Z",
+  "created": "2022-06-21T09:56:43.996471382Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.46.2"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/dir/158e508b-85f9-4cd9-86aa-a717dc1fc7c7",
+ "documentNamespace": "https://anchore.com/syft/dir/cb96ac9a-3232-4d81-b9fd-f350325a9f44",
  "packages": [
   {
    "SPDXID": "SPDXRef-f2d656f23ec08b66",
@@ -36,26 +36,26 @@
    "versionInfo": "3.1"
   },
   {
-   "SPDXID": "SPDXRef-f418c83de7e8f860",
+   "SPDXID": "SPDXRef-921237a93b6aa3d",
    "name": "minicli/stencil",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:minicli\\/stencil:minicli\\/stencil:0.1.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:minicli\\/stencil:minicli\\/stencil:0.1.1:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:composer/minicli/stencil@0.1.0",
+     "referenceLocator": "pkg:composer/minicli/stencil@0.1.1",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from PHP composer manifest: composer.lock",
-   "versionInfo": "0.1.0"
+   "versionInfo": "0.1.1"
   },
   {
    "SPDXID": "SPDXRef-de075d1a84a8113f",

@@ -62,16 +62,16 @@
         },
         {
             "name": "minicli/stencil",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/minicli/stencil.git",
-                "reference": "bc239eeb44a7b4dbe97915e452471db5a46f5cdf"
+                "reference": "a328319f68229007b65d286ae2bd77cf2b7b9dca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minicli/stencil/zipball/bc239eeb44a7b4dbe97915e452471db5a46f5cdf",
-                "reference": "bc239eeb44a7b4dbe97915e452471db5a46f5cdf",
+                "url": "https://api.github.com/repos/minicli/stencil/zipball/a328319f68229007b65d286ae2bd77cf2b7b9dca",
+                "reference": "a328319f68229007b65d286ae2bd77cf2b7b9dca",
                 "shasum": ""
             },
             "require": {
@@ -100,9 +100,9 @@
             ],
             "support": {
                 "issues": "https://github.com/minicli/stencil/issues",
-                "source": "https://github.com/minicli/stencil/tree/0.1.0"
+                "source": "https://github.com/minicli/stencil/tree/0.1.1"
             },
-            "time": "2022-06-20T15:39:57+00:00"
+            "time": "2022-06-21T08:51:47+00:00"
         }
     ],
     "packages-dev": [
